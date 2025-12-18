@@ -6,6 +6,11 @@ class ProjectsContent extends StatelessWidget {
   const ProjectsContent({super.key});
 
   final List<Map<String, String>> projects = const [
+    {"title": "FFWC App",
+      "desc": "Flutter Early warning Flood forecast App — GetX + REST API",
+      "url": "https://play.google.com/store/apps/details?id=com.rimes.ffwc_app",
+      'cover_photo': 'assets/images/ffwc.png'
+    },
     {"title": "Landslide Inventory App",
       "desc": "Flutter Interactive Landslide Reporting App — GetX + REST API",
       "url": "https://play.google.com/store/apps/details?id=com.rimes.lanslide_report",
@@ -30,11 +35,6 @@ class ProjectsContent extends StatelessWidget {
       "desc": "Flutter app for displaying BAMIS data as GAdvisory — GetX + REST API",
       "url": "https://play.google.com/store/search?q=bamis&c=apps",
       'cover_photo': 'assets/images/bamis.png'
-    },
-    {"title": "EMS App",
-      "desc": "Flutter app for Employee management — Provider + REST API",
-      "url": "https://github.com/SadakatulShakil/EMS-System",
-      'cover_photo': 'assets/images/ems.jpeg'
     },
   ];
 

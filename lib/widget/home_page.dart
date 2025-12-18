@@ -219,10 +219,10 @@ class _PortfolioHomeState extends State<PortfolioHome> with SingleTickerProvider
                                               child: Transform.rotate(
                                                 angle: -0.06,
                                                 child: const PreviewCard(
-                                                  title: "Tottho Apa",
-                                                  icon: "assets/icons/totthoapa.png",
-                                                  url: "https://play.google.com/store/apps/details?id=com.laalsobuj.totthoapa",
-                                                  subtitle: "Sales representative app",
+                                                  title: "FFWC App",
+                                                  icon: "assets/icons/ffwc.png",
+                                                  url: "https://play.google.com/store/apps/details?id=com.rimes.ffwc_app",
+                                                  subtitle: "Water Development Ministry app",
                                                   width: 320,
                                                 ),
                                               ),
@@ -249,10 +249,10 @@ class _PortfolioHomeState extends State<PortfolioHome> with SingleTickerProvider
                                               child: Transform.rotate(
                                                 angle: 0.06,
                                                 child: const PreviewCard(
-                                                  title: "WZPDCL",
-                                                  icon: "assets/icons/wzpdcl.png",
-                                                  url: "https://play.google.com/store/search?q=wzpdcl&c=apps",
-                                                  subtitle: "Electricity Bill Management",
+                                                  title: "Tottho Apa",
+                                                  icon: "assets/icons/totthoapa.png",
+                                                  url: "https://play.google.com/store/apps/details?id=com.laalsobuj.totthoapa",
+                                                  subtitle: "Sales representative app",
                                                   width: 320,
                                                 ),
                                               ),
